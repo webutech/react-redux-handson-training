@@ -13,9 +13,9 @@
 
 ## Code Snippet
 
-### Your Issue-Tracker app should have a place to store issues
+> Your Issue-Tracker app should have a place to store issues
 ```
-> var issues=['issue-1','issue-2','issue-3'];
+ var issues=['issue-1','issue-2','issue-3'];
 ```
 ### It Should have a way to add issue
 ```

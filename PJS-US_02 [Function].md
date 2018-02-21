@@ -16,22 +16,31 @@
 ```
  function addIssue(issue){
   issues.push(issue);
+  displayIssues();
  }
 ```
 
 ### It should have a way to display issues using function
 ```
- console.log('My Issues : ',issues);
+ function displayIssues(){
+  console.log('My Issues : ',issues);
+ }
 ```
 
 ### It should have a way to change a issue using function
 ```
- issues[1]='changed';
+ function changeIssue(position,newIssue){
+  issues[position]=newIssue;
+  displayIssues();
+ }
 ```
 
 ### It should have a way to delete a issue using function
 ```
- issues.splice(1,1);
+ function deleteIssue(position){
+  issues.splice(position,1);
+  displayIssues();
+ }
 ```
 ## Reference
 * [Functions - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)

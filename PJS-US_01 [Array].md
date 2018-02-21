@@ -1,7 +1,7 @@
 # Contents
 
-* [User Story](#User Story)
-* [Code Snippet](#Code Snippet)
+* [User Story](#User-Story)
+* [Code Snippet](#Code-Snippet)
 * [Reference](#Reference)
 
 ## User Story

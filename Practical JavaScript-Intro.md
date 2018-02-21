@@ -17,3 +17,14 @@ and Redux.
 - forEach
 - map and filter
 - Arrow Function
+
+## Conventions used for accessing specific files from this repository
+
+I have created files here for the specific requirement. In these files i will be providing below things. 
+```
+ User Story
+ Code snippet for help
+ Reference to know more about the concept
+```
+I planned to give specific name to these files.
+> PJS-US_#No [Concept]

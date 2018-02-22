@@ -5,14 +5,14 @@
 * [Reference](#reference)
 
 ## User Story
-- It should have a way to add issue using function
-- It should have a way to display issues using function
-- It should have a way to change a issue using function
-- It should have a way to delete a issue using function
+- It should have a way to add an issue in the issues list using function
+- It should have a way to display issues list using function
+- It should have a way to change an issue in the issues list using function
+- It should have a way to delete an issue from issues list using function
 
 ## Code Snippet
 
-### It Should have a way to add issue using function
+### It should have a way to add an issue in the issues list using function
 ```
  function addIssue(issue){
   issues.push(issue);
@@ -20,14 +20,14 @@
  }
 ```
 
-### It should have a way to display issues using function
+### It should have a way to display issues list using function
 ```
  function displayIssues(){
   console.log('My Issues : ',issues);
  }
 ```
 
-### It should have a way to change a issue using function
+### It should have a way to change an issue in the issues list using function
 ```
  function changeIssue(position,newIssue){
   issues[position]=newIssue;
@@ -35,7 +35,7 @@
  }
 ```
 
-### It should have a way to delete a issue using function
+### It should have a way to delete an issue from issues list using function
 ```
  function deleteIssue(position){
   issues.splice(position,1);

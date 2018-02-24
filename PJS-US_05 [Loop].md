@@ -2,6 +2,7 @@
 
 * [User Story](#user-story)
 * [Code Snippet](#code-snippet)
+* [Reference](#reference)
 
 ## User Story
 - displayIssues should display issueText
@@ -67,5 +68,6 @@ var issueList={
     }
     };
 ```
-
+## Reference
+![Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 

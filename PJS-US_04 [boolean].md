@@ -54,8 +54,8 @@ var issueList={
     .............
     .............
     toggleComplete:function(position){
-        var todo=this.issues[position];
-        todo.completed=!todo.completed;
+        var issue=this.issues[position];
+        issue.completed=!issue.completed;
         this.displayIssues();
     },
     

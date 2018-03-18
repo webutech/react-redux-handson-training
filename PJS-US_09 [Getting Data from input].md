@@ -2,26 +2,45 @@
 
 * [User Story](#user-story)
 * [Code Snippet](#code-snippet)
-* [Reference](#reference)
 
 ## User Story
--There should be "Display Issues" and "Toggle All" Buttons on application's index page
--When your click on "Display Issues" button, IssueList.displayIssues() should be called
--When user click on "Toggle All" button, IssueList.toggleAll()
+- Code Refactoring
+- There should be a working control for adding issue
+- There should be a working control for changing issue
+- There should be a working control for deleting issue
+- There should be a working control for toggling issue
 
 
-### There should be "Display Issues" and "Toggle All" Buttons on application's index page
+### Code Refactoring
 ```
+  #### index.html
+  <button onclick="handlers.displayIssues()">Display Todos</button>
+  <button onclick="handlers.toggleAll()">Toggle All</button>
+  
+  #### script.js
+  var handlers={
+    displayIssues:function(){
+        issueList.displayIssues();
+    },
+    
+    toggleAll:function(){
+        issueList.toggleAll();
+    }
+};
 
 ```
-### When your click on "Display Issues" button, IssueList.displayIssues() should be called
+### There should be a working control for adding issue
 ```
+
   
 ```
-### When user click on "Toggle All" button, IssueList.toggleAll()
+### There should be a working control for changing issue
 ```
 
 ```
-## Reference
-* [Event Handling](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+### There should be a working control for deleting issue
+```
+```
+
+### There should be a working control for toggling issue
 

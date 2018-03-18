@@ -9,6 +9,7 @@
 - When user clicks on "Display Issues" button, it should call issueList.displayIssues() method
 - When user clicks on "Toggle All" button, it should call issueList.toggleAll() method
 
+![Event Listener](https://github.com/code-gram/react-redux-handson-training/blob/master/images/IssueTracker-wireframe.png)
 
 ### There should be a "Display Issues" and "Toggle All Buttons" that will be interacting with JS code
 ```
